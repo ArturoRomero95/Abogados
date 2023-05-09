@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* INDEX */
+
+/*Header*/
+
+#header-index {
+    background-color: rgb(19, 19, 63);
+}
+
+#header-servicios {
+    background-color: rgb(19, 19, 63);
+}
+#header-contacto {
+    background-color: rgb(19, 19, 63);
+}
+
+#header-abogados {
+    background-color: rgb(19, 19, 63);
+}
+
+.navbar-brand{
+    margin: 0 auto;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.nav-item{
+    padding-left: 5%;
+}
+
+
+
+
+/*Main*/
+
+
+#main{
+    margin: 5%;
+}
+
+.titulo {
+    border-bottom: solid 3px rgb(19, 19, 63);
+    text-align: center;
+    font-weight: bold;
+    margin: 2% auto;
+    width: fit-content;
+    
+}
+
+#carouselExample{
+    margin: 5%;
+}
+
+.parrafo{
+    margin: 5% 10%;
+    font-size: 20px;
+}
+
+.premios h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.premios div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.premios div img{
+    margin: 2% 5%;
+    width: 30%;
+}
+
+.fixed{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 40%;
+    right: 0;
+}
+
+.fixed a img{
+    width: 60px;
+    margin-top: 20px;
+}
+
+
+/* ABOGADOS */
+
+#main{
+    margin: 2% 10%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 2% 1.5%;
+    border-top-color: rgb(19, 19, 63);
+    border-top-width: 5px;
+}
+
+
+/* Servicios */
+
+.sectores{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 2% auto;
+    padding: 30px;
+    border: solid rgb(19, 19, 63);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.248);
+}
+
+.sectores div{
+    margin: 0 auto;
+}
+
+.sectores div ul li{
+    padding: 1%;
+}
+
+.escritorio{
+    text-align: center;
+    margin: 3% 0;
+}
+
+.escritorio img{
+    width: 80%;
+}
+
+/* Contacto */
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 78);
+    padding: 80px 0;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.661);
+}
+
+.inputs div{
+    text-align: center;
+}
+
+.inputs div input{
+    margin: 10px;
+}
+
+.datos input{
+    width: 70%;
+}
+
+.texto input{
+    width: 70%;
+    height: 150px;
+}
+
+.acuerdo{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.enviar input{
+    height: 30px;
+    width: 70px;
+}
+
+
+
+/*Footer*/
+
+.footer{
+    background-color: rgb(19, 19, 63);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.footer div{
+    margin: 0 5%;
+    font-size: 13px;
+}
